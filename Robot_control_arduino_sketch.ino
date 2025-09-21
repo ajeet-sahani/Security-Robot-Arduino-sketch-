@@ -20,8 +20,8 @@ const int ENB = D2;  // enable B (PWM)
 const int LED_PIN    = D0;
 const int BUZZER_PIN = D4;   // buzzer pin
 const int MOTION_PIN = D3;   // PIR motion sensor
-const int TRIG_PIN   = D2;   // ultrasonic trig
-const int ECHO_PIN   = D1;   // ultrasonic echo
+const int TRIG_PIN   = D5;   // ultrasonic trig
+const int ECHO_PIN   = D6;   // ultrasonic echo
 
 // --- Motor functions ---
 void motors_stop() {
